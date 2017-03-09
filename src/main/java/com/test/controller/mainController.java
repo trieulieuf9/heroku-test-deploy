@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class mainController {
 
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
         return "hello";
     }
