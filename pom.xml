@@ -22,6 +22,12 @@
       <version>4.2.6.RELEASE</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-orm</artifactId>
+      <version>4.2.6.RELEASE</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>test-heroku-deploy</finalName>

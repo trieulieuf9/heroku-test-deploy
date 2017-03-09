@@ -9,12 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by trieulieuf9 on 3/9/17.
  */
 
-
-@RestController
-@RequestMapping("/hello")
+@Controller
 public class mainController {
 
-    @RequestMapping(value = "/index", method = RequestMethod.GET)
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String index() {
         return "hello";
     }
